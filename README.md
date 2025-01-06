@@ -1,8 +1,5 @@
 ## Домашние задания 
-1. Введение в виртуализацию
-2. Применение принципов IaaC в работе с виртуальными машинами
-3. Введение в Docker
-4. Оркестрация группой Docker контейнеров на примере Docker Compose
-5. Практическое применение Docker
-6. Оркестрация кластером Docker контейнеров на примере Docker Swarm
+1. ModuleOne - VM + Dokcer
+2. ModuleTwo - Terraform
+3. ModuleThree - Ansible
 
