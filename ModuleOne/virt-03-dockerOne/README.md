@@ -4,4 +4,6 @@
 
 ## Задание 1
 
+https://hub.docker.com/r/anyaandreenko/custom-nginx/tags 
+
 
