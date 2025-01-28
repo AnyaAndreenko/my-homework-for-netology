@@ -82,9 +82,11 @@ docker compose up -d
 ![файлы](../img/5-2.JPG)
 
 так как как Docker Compose по умолчанию ищет файл с именем docker-compose.yaml. Файл compose.yaml не будет учитываться.
-Изменила файл и соединила в один файл compose.yaml.
+
+Изменила файл и соединила в один файл compose.yaml. Запустила
 
 ![файлы](../img/5-3-1.JPG)
+
 Удачно!
 
 
