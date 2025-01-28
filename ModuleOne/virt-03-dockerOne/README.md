@@ -70,3 +70,21 @@ https://hub.docker.com/r/anyaandreenko/custom-nginx/tags
 Если два контейнера используют /path/on/host, они будут видеть одни и те же файлы в /data.
 
 ## Задание 5
+
+Созадла отдельную директорию (/tmp/netology/docker/task5) и созадла два файла. с содержимым из задания.
+
+![файлы](../img/5-1.JPG)
+
+После команды:  
+docker compose up -d
+
+Произошла ошибка. 
+![файлы](../img/5-2.JPG)
+
+так как как Docker Compose по умолчанию ищет файл с именем docker-compose.yaml. Файл compose.yaml не будет учитываться.
+Изменила файл и соединила в один файл compose.yaml.
+
+![файлы](../img/5-3-1.JPG)
+Удачно!
+
+
