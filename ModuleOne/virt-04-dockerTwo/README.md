@@ -19,10 +19,22 @@
 
 ![Dockerfile.python](../img/up.JPG)
 
-![Ссылка на мой гитхаб](https://github.com/AnyaAndreenko/shvirtd-example-python/tree/main)
+[Ссылка на мой гитхаб](https://github.com/AnyaAndreenko/shvirtd-example-python/tree/main)
 
 
 ## Задача 3
 
 Создала в репозитории с проектом файл compose.yaml.  С помощью директивы "include" подключила к нему файл "proxy.yaml"
+также собрала проект и подключилась к базе.
+
+![вилка GitHub добавлена](../img/baza.JPG)
+
+## Задача 6
+
+Скачала docker образ hashicorp/terraform:latest и скопируйте бинарный файл /bin/terraform на свою локальную машину, используя dive и docker save.
+
+![вилка GitHub добавлена](../img/dive1.JPG)
+
+![вилка GitHub добавлена](../img/dive.JPG)
+
 
