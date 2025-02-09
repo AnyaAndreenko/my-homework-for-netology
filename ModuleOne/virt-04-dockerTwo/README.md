@@ -18,3 +18,11 @@
 Запустила чтоб проверить работу сформирования образа. Все ок 
 
 ![Dockerfile.python](../img/up.JPG)
+
+![Ссылка на мой гитхаб](https://github.com/AnyaAndreenko/shvirtd-example-python/tree/main)
+
+
+## Задача 3
+
+Создала в репозитории с проектом файл compose.yaml.  С помощью директивы "include" подключила к нему файл "proxy.yaml"
+
