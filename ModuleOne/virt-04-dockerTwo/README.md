@@ -10,3 +10,11 @@
 Добавила в свой репозиторий вилку GitHub пространство shvirtd-example-python
 
 ![вилка GitHub добавлена](../img/git-example.JPG)
+
+Создала Dockerfile.python, также исключила ненужные файлы с помощью dockerignore
+
+![Dockerfile.python](../img/git-createDoc.JPG)
+
+Запустила чтоб проверить работу сформирования образа. Все ок 
+
+![Dockerfile.python](../img/up.JPG)
