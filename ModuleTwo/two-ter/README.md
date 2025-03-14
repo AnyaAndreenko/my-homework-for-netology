@@ -3,11 +3,13 @@
 ### Задание 1
 Приложила скриншот ЛК Yandex Cloud с созданной ВМ, где видно внешний ip-адрес;
 
-![скриншот ЛК Yandex Cloud](img/ip.JPG)
+![curl](img/ip.JPG)
+
 
 Приложила скриншот консоли, curl должен отобразить тот же внешний ip-адрес;
 
-![curl](img/ter.JPG)
+![скриншот ЛК Yandex Cloud](img/ter.JPG)
+
 
 Ответы
 __preemptible = true (Прерываемые вм) __
@@ -42,7 +44,9 @@ __core_fraction=5 (ограничитель процента мощности п
 
 (Отдельное спасибо за замечания! я все поняла)
 
+![locals.tf](img/done4-1.JPG)
 
+![locals.tf](img/done4-2.JPG)
 
 
 
@@ -52,8 +56,14 @@ __core_fraction=5 (ограничитель процента мощности п
 Замените переменные внутри ресурса ВМ на созданные вами local-переменные.
 Примените изменения.
 
-![locals.tf](img/done.JPG)
+![locals.tf](img/done5-1.JPG)
 
-![locals.tf](img/done1.JPG)
+![locals.tf](img/done5-2.JPG)
 
 [locals.tf](https://github.com/AnyaAndreenko/ter-homeworks/blob/main/02/src/locals.tf)
+
+### Задание 6
+
+Вместо использования трёх переменных  ".._cores",".._memory",".._core_fraction" в блоке  resources {...}, объедините их в единую map-переменную vms_resources и  внутри неё конфиги обеих ВМ в виде вложенного map(object).
+
+[terr.tf](https://github.com/AnyaAndreenko/ter-homeworks/blob/main/02/src/terr.tfvars)
