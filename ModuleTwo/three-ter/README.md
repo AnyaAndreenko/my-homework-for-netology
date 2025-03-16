@@ -27,3 +27,5 @@
 возникает эта ошибка, все проверяла. Токен новый. Какая-то непонятная ошибка
 
 ![ошибка](img/ошибка.JPG)
+
+https://yandex.cloud/en/docs/tutorials/infrastructure-management/terraform-data-sources вот отсюда тоже брала инфо. не изменилось ничего 
