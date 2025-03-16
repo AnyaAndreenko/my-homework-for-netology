@@ -8,6 +8,8 @@
 Назначить ВМ созданную в первом задании группу безопасности.(как это сделать узнайте в документации провайдера yandex/compute_instance)
 создать файл for_each-vm.tf. Описать в нём создание двух ВМ для баз данных с именами "main" и "replica" разных по cpu/ram/disk_volume, используя мета-аргумент for_each loop.
 
-[]()
+[count-vm.tf](https://github.com/AnyaAndreenko/ter-homeworks/blob/main/03/src/count-vm.tf)
+
+[for_each-vm.tf](https://github.com/AnyaAndreenko/ter-homeworks/blob/main/03/src/for_each-vm.tf)
 
 
