@@ -11,21 +11,24 @@
 
 [for_each-vm.tf](https://github.com/AnyaAndreenko/ter-homeworks/blob/main/03/src/for_each-vm.tf)
 
+
+
+![топ](img/doneter5.JPG)
+
 ### Задание 3
 
 Создайте 3 одинаковых виртуальных диска размером 1 Гб с помощью ресурса yandex_compute_disk и мета-аргумента count в файле disk_vm.tf .
 Создайте в том же файле одиночную(использовать count или for_each запрещено из-за задания №4) ВМ c именем "storage" . Используйте блок dynamic secondary_disk{..} и мета-аргумент for_each для подключения созданных вами дополнительных дисков.
 
+[disk_vm.tf](https://github.com/AnyaAndreenko/ter-homeworks/blob/main/03/src/disk_vm.tf)
 
 ### Задание 4
 
 В файле ansible.tf создайте inventory-файл для ansible. Используйте функцию tepmplatefile и файл-шаблон для создания ansible inventory-файла из лекции. Готовый код возьмите из демонстрации к лекции demonstration2. Передайте в него в качестве переменных группы виртуальных машин из задания 2.1, 2.2 и 3.2, т. е. 5 ВМ.
 Инвентарь должен содержать 3 группы и быть динамическим, т. е. обработать как группу из 2-х ВМ, так и 999 ВМ.
 
+[hosts.cfg](https://github.com/AnyaAndreenko/ter-homeworks/blob/main/03/src/hosts.cfg)
+
+![топ](img/config.JPG)
 
 
-возникает эта ошибка, все проверяла. Токен новый. Какая-то непонятная ошибка
-
-![ошибка](img/ошибка.JPG)
-
-https://yandex.cloud/en/docs/tutorials/infrastructure-management/terraform-data-sources вот отсюда тоже брала инфо. не изменилось ничего 
