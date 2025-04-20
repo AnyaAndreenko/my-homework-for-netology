@@ -57,7 +57,7 @@ changed: [lighthouse-01]
 
 TASK [Nginx | Create config] *******************************************************************************************************************************************************************
 --- before: /etc/nginx/nginx.conf
-+++ after: /root/.ansible/tmp/ansible-local-15992cbkjgyzl/tmpmo4j7st3/nginx.conf.j2
++++ after: /root/.ansible/tmp/ansible-local/tmp/nginx.conf.j2
 @@ -1,9 +1,5 @@
 -# For more information on configuration, see:
 -#   * Official English Documentation: http://nginx.org/en/docs/
@@ -231,11 +231,13 @@ TASK [Ensure /var/www/lighthouse is added to Git safe.directory] ***************
 changed: [lighthouse-01]
 
 TASK [Lighthouse | Clone from Git] *************************************************************************************************************************************************************
-fatal: [lighthouse-01]: FAILED! => {"before": "d701335c25cd1bb9b5155711190bad8ab852c2ce", "changed": false, "msg": "Local modifications exist in the destination: /var/www/lighthouse (force=no)."}
+fatal: [lighthouse-01]: FAILED! => {"before": "c153ad35c5710b12c8ab150625cd1bb91ed7029b", "changed": false, "msg": "Local modifications exist in the destination: /var/www/lighthouse (force=no)."}
 
 PLAY RECAP *************************************************************************************************************************************************************************************
 lighthouse-01              : ok=8    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
-
+```
+Далее
+```
 ann@andreenkoa:~/mnt-homeworks/08-ansible-02-playbook/playbook$ sudo ansible-playbook site.yml -i inventory/prod.yml --diff
 
 PLAY [Install Nginx] ***************************************************************************************************************************************************************************
@@ -274,7 +276,7 @@ ok: [lighthouse-01]
 
 TASK [Lighthouse | Create lighthouse config] ***************************************************************************************************************************************************
 --- before
-+++ after: /root/.ansible/tmp/ansible-local-21060cpr8fr6s/tmpbg8o4x9a/lighthouse.conf.j2
++++ after: /root/.ansible/tmp/ansible-local/tmp/lighthouse.conf.j2
 @@ -0,0 +1,11 @@
 +server {
 +  listen        80;
@@ -521,7 +523,7 @@ changed: [vector-01]
 
 TASK [Configure Vector | Template config] ******************************************************************************************************************************************************
 --- before
-+++ after: /root/.ansible/tmp/ansible-local-261161j_to3qd/tmp0xandlru/vector.yml.j2
++++ after: /root/.ansible/tmp/ansible-local/tmp/vector.yml.j2
 @@ -0,0 +1,45 @@
 +#TEST config from Ansible
 +#                                
