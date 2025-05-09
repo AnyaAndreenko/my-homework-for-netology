@@ -15,7 +15,6 @@ Starting galaxy role install process
 ann@andreenkoa:~/mnt-homeworks/08-ansible-04-role/playbook$
 ```
 
-Ссылка на мой playbook
-
+Ссылка на мой playbook https://github.com/AnyaAndreenko/mnt-homeworks/tree/MNT-video/08-ansible-04-role/playbook
 Ссылка на мой lighthouse https://github.com/AnyaAndreenko/lighthouse-role
 Ссылка на мой vector https://github.com/AnyaAndreenko/vector-role
