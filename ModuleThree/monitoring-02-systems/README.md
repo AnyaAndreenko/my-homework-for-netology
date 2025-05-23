@@ -61,8 +61,11 @@ Prometheus, TICK, Zabbix, VictoriaMetrics, Nagios
 __Классификация систем:__
 
 __Pull:__ Prometheus, VictoriaMetrics
+
 __Push:__ Zabbix, Nagios
+
 __Гибридная:__ TICK (может работать в обоих режимах)
+
 __P/S:__ VictoriaMetrics может работать как в pull, так и в push режиме, что делает её гибким решением для различных сценариев мониторинга.
 
 __Pull модель (Prometheus, VictoriaMetrics):__
