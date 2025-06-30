@@ -20,4 +20,6 @@
 
 ![](img/kuber11-5.JPG)
 Продемонстрировать, что трафик разрешён и запрещён.
-![](img/kuber11-8.JPG)
+![](img/kuber11-10.JPG)
+![](img/kuber11-11.JPG)
+![](img/kuber11-12.JPG)
